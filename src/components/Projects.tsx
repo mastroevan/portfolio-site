@@ -13,42 +13,42 @@ const projects: Project[] = [
     title: "BlueSteel",
     description:
       "BlueSteel is a modern e-commerce platform for fashion clothing. Built with React for a dynamic frontend, Node.js and Express for a robust backend, and MongoDB for seamless data management, it delivers a responsive design, secure checkout, and smooth user experience.",
-    image: "src/assets/ecommerce_proj.webp",
+    image: "public/assets/ecommerce_proj.webp",
     github: "https://github.com/mastroevan/ProjectCatwalk-",
   },
   {
     title: "HelpMeOut",
     description:
       "HelpMeOut is a classifieds platform connecting construction contractors with local communities. Using React for the frontend and Node.js/Express for the backend, it focuses on intuitive navigation and streamlined interactions.",
-    image: "src/assets/helpout-proj2.webp",
+    image: "public/assets/helpout-proj2.webp",
     github: "https://github.com/mastroevan/HelpMeOut",
   },
   {
     title: "EventEase",
     description:
       "EventEase is a user-friendly event sign-up app featuring registration, RSVP management, and confirmation tracking. Built with a clean HTML/CSS frontend and a Python Flask backend, it streamlines event organization and attendee management efficiently.",
-    image: "src/assets/signup-proj3.webp",
+    image: "public/assets/signup-proj3.webp",
     github: "https://github.com/mastroevan/Registration-Page",
   },
   {
     title: "BudgetBuddy",
     description:
       "BudgetBuddy is a real-time budgeting app designed for tracking expenses and savings goals. Leveraging React for a clean, interactive UI and Firebase for real-time data updates, it empowers users to manage their finances effectively.",
-    image: "src/assets/budget.webp",
+    image: "public/assets/budget.webp",
     github: "https://github.com/mastroevan/budget-tracker",
   },
   {
     title: "CapturePro",
     description:
       "CapturePro is a sleek product showcase website built with HTML, CSS, and JavaScript. It highlights the latest cutting-edge camera through visually engaging layouts, detailed specs, and user review integration.",
-    image: "src/assets/camera_site.webp",
+    image: "public/assets/camera_site.webp",
     github: "N/A",
   },
   {
     title: "Micro-Reddit",
     description:
       "Micro-Reddit is a Ruby-powered web app where users can create posts, engage in topic-based discussions, and build community. Built with Ruby on Rails, it demonstrates clean code, MVC architecture, and core Ruby principles.",
-    image: "src/assets/mini-reddit-proj.webp",
+    image: "public/assets/mini-reddit-proj.webp",
     github: "https://github.com/mastroevan/micro-reddit",
   },
 ];

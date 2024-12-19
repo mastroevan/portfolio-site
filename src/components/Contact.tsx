@@ -21,9 +21,9 @@ const Contact = () => {
     setStatus("Sending...");
 
     // EmailJS Service
-    const serviceID = "service_4e7d81u"; // Replace with your Service ID
-    const templateID = "template_10kypog"; // Replace with your Template ID
-    const publicKey = "6BREHBaCqPuynGZBQ"; // Replace with your Public Key
+    const serviceID = import.meta.env.VITE_APP_SERVICE_ID; // Replace with your Service ID
+    const templateID = import.meta.env.VITE_APP_TEMPLATE_ID; // Replace with your Template ID
+    const publicKey = import.meta.env.VITE_APP_PUBLIC_KEY; // Replace with your Public Key
 
     emailjs
       .send(

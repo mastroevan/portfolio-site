@@ -1,5 +1,5 @@
 import { FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
-import profileImage from "../assets/profile.webp"; // Replace with your image path
+import profileImage from "../public/assets/profile.webp"; // Replace with your image path
 
 const About = () => {
   return (

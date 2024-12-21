@@ -1,9 +1,11 @@
+import HeroButton from "./HeroButton";
+
 const Home = () => {
     return (
       <section
         className="relative h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url('/src/assets/hero-bg.jpg')", // Path to your background image
+          backgroundImage: "url('/portfolio-site/public/assets/hero-bg.jpg')", // Path to your background image
         }}
       >
         {/* Overlay */}
@@ -14,9 +16,21 @@ const Home = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-2 text-center">
             EM Software Solutions
           </h1>
-          <h2>
-            By Evan Mastro
-          </h2>
+          <br/>
+          <br/>
+          <HeroButton />
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <p>&#169; 2024 Evan Mastro</p>
         </div>
       </section>
     );

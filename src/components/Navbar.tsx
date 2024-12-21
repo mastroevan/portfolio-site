@@ -1,9 +1,9 @@
 import { Link } from "react-scroll";
-import logo from "../assets/logo-png.png"
+import logo from "../../public/assets/logo-png.png"
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+    <nav className="bg-gradient-to-r from-blue-500 via-green-400 to-blue-600 fixed top-0 left-0 w-full z-50">
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-500">
@@ -11,13 +11,13 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-8 text-gray-700 font-semibold">
+        <ul className="hidden md:flex space-x-8 text-white font-semibold">
           <li>
             <Link
               to="home"
               smooth={true}
               duration={500}
-              className="hover:text-blue-500 cursor-pointer"
+              className="hover:text-gray-700 cursor-pointer"
             >
               Home
             </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={500}
-              className="hover:text-blue-500 cursor-pointer"
+              className="hover:text-gray-700 cursor-pointer"
             >
               About
             </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={500}
-              className="hover:text-blue-500 cursor-pointer"
+              className="hover:text-gray-700 cursor-pointer"
             >
               Projects
             </Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
               to="resume"
               smooth={true}
               duration={500}
-              className="hover:text-blue-500 cursor-pointer"
+              className="hover:text-gray-700 cursor-pointer"
             >
               Resume
             </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={500}
-              className="hover:text-blue-500 cursor-pointer"
+              className="hover:text-gray-700 cursor-pointer"
             >
               Contact
             </Link>

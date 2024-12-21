@@ -1,4 +1,4 @@
-import resume from "../assets/evan-mastro-resume.pdf"
+import resume from "../../public/assets/evan-mastro-resume.pdf"
 
 const Resume = () => {
   return (

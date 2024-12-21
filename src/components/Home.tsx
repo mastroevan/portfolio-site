@@ -5,7 +5,7 @@ const Home = () => {
       <section
         className="relative h-screen bg-cover bg-center"
         style={{
-          backgroundImage: "url('/portfolio-site/public/assets/hero-bg.jpg')", // Path to your background image
+          backgroundImage: "url('/public/assets/hero-bg.jpg')", // Path to your background image
         }}
       >
         {/* Overlay */}

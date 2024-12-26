@@ -1,5 +1,4 @@
 import { Link } from "react-scroll";
-import logo from "../../public/assets/logo-png.png"
 
 const Navbar = () => {
   return (
@@ -7,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-500">
-          <img src={logo} width="20%" height="auto"></img>
+          <img src="url('/assets/logo-png.png')" width="20%" height="auto"></img>
         </div>
 
         {/* Navigation Links */}

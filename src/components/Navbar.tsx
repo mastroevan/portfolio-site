@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center py-4">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-500">
-          <img src="url('/assets/logo-png.png')" width="20%" height="auto"></img>
+          <img src="/assets/logo-png.png" width="20%" height="auto" alt="logo"></img>
         </div>
 
         {/* Navigation Links */}

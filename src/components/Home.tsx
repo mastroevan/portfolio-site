@@ -4,9 +4,7 @@ const Home = () => {
     return (
       <section
         className="relative h-screen bg-cover bg-center"
-        style={{
-          backgroundImage: "url('/public/assets/hero-bg.jpg')", // Path to your background image
-        }}
+        style={{backgroundImage: "url('/assets/hero-bg.jpg')"}}
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
@@ -30,7 +28,7 @@ const Home = () => {
           <br></br>
           <br></br>
           <br></br>
-          <p>&#169; 2024 Evan Mastro</p>
+          {/* <p>&#169; 2024 Evan Mastro</p> */}
         </div>
       </section>
     );
